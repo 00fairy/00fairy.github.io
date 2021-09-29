@@ -1,0 +1,159 @@
+.div1 {
+    background-color: rgb(218, 214, 214);
+   
+}
+.div1 ul li{
+    display:inline-block;
+    justify-content:flex-start;
+    width: 120px;
+    line-height: 35px;
+    text-align:center;/*居中*/
+    color:gray;
+    position:relative;
+}
+.div1 ul li:hover{
+    background-color: white;
+}
+.div1 ul li ul{
+    display:none;/*默认隐藏*/
+    position:absolute;
+    z-index: 2;
+    background-color: white;
+    border: 1px solid rgb(172, 170, 170);
+    left: -10px;
+}
+.div1 ul li:hover ul{
+    display: block;
+}
+.div1 ul li ul li{
+    text-align:left;/*居左*/
+}
+.img1 img{
+   width: 560px;
+   height: 350px; 
+   text-align:center;/*居中*/
+   float: left;
+   object-fit: cover;
+   z-index: 1;
+}
+.img1 {
+   width: 2000px;
+   height: 300px;
+   
+}
+.img2 {
+display:inline-block;
+color: white;
+}
+.img3 {
+   float: right;
+}
+.img3 ul li{
+display: inline-block;
+height: 8px;
+width: 8px;
+border-radius: 50%;/*圆角，当border-radius为宽度的一半时为园*/
+margin: 0px 5px;
+background-color: white;
+cursor: pointer;/*光标，，一只手*/
+
+
+}
+.div3{
+float: left;
+width: 560px;
+height: 30px;
+background-color: rgba(75, 74, 74, 0.2);
+color: white;
+padding: 5pcx 10px;
+position:absolute;
+top: 320px;
+}
+.circle {
+width: 220px;
+height: 200px;
+position: fixed;/*固定定位*/
+right: 0px;
+top: 0px;
+bottom: 0;
+margin: auto;/*自动*/
+}
+.c1 {
+width: 70px;
+height: 70px;
+box-sizing: border-box;
+border-radius: 50%;/*圆角，当border-radius为宽度的一半时为园*/
+border: 5px solid black;/*边*/
+position: absolute;/*绝对定位*/
+
+}
+.circle1 {
+left: 0px;
+top: 0px;
+border-color: blue;
+}
+.circle2 {
+left: 70px;
+top: 0px;
+border-color: black;
+}
+.circle3 {
+left: 140px;
+top: 0px;
+border-color: red;
+}
+.circle4 {
+left: 35px;
+top: 40px;
+border-color: yellow;
+}
+.circle5 {
+left: 105px;
+top: 40px;
+border-color: green;
+
+}
+.div2 {
+width: 560px;
+height: 330px;
+position:relative;
+margin: auto;
+top: 30px;
+}
+
+.jian>.left{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    position:absolute;
+    top: 0px;
+    bottom: 0px;
+    text-align: center;
+    left: 10px;
+    color: white;
+}
+.jian>.right{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    margin: auto;
+    position:absolute;
+    top: 0px;
+    bottom: 0px;
+    text-align: center;
+    right: 10px;
+    color: white;
+}
+.jian>.right:hover,.left:hover{
+    background-color: white;
+    color: orange;
+    border-radius:50%;
+}
+.div5{
+    margin:90px 10px 0px 10px;/*上 右 下 左（顺时针）*/
+}
+.div5 p{
+   text-indent: 2em;
+   font-size:20px;
+}
